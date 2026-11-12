@@ -1,0 +1,27 @@
+name: pixora
+description: "Pixora — 极简图片托管与分享工具：上传图片，即刻生成分享链接。"
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  dio: ^5.0.0
+  cross_file: ^0.3.4
+  file_picker: ^8.0.0
+  image: ^4.0.0
+  shared_preferences: ^2.0.0
+  desktop_drop: ^0.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
